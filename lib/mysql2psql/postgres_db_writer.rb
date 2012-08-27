@@ -23,7 +23,7 @@ class Mysql2psql
           
         file.each_line do |line|
           
-          connection.execute(line)
+          # connection.execute(line)
           
         end
               
